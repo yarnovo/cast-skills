@@ -93,5 +93,6 @@ runtime tick 时 · harness 按 agent.skills 列表 · 把每个 skill 的 SKILL
 
 - ✅ 仓建立
 - ✅ 1 demo skill (first-post)
-- [ ] runtime 加载机制 (akong-agent-harness 加 skill loader)
-- [ ] cast-agents builtin yaml 接 `skills:` 字段
+- ✅ runtime 加载机制 (akong-agent-harness `skills.py` 提供 `SkillRegistry` · 走 `AKONG_SKILLS_DIR` env 配)
+- ✅ cast-agents builtin yaml 接 `skills:` 字段 (走 `metadata_json` 携带 · cast-api schema 不变)
+- [ ] cooldown 强制逻辑 (当前只解析存值 · runtime 暂不限频)
