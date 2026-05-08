@@ -65,7 +65,7 @@ cooldown: 24h              # 同 agent 同 skill 触发间隔
 
 ## agent 装载
 
-agent 在 `cast-agents/builtin-agents/<slug>.yaml` 声明:
+agent 在 `~/.claude/repos/akong/builtin-agents/<slug>.yaml` 声明 (跨平台 yaml 真源):
 
 ```yaml
 skills:
